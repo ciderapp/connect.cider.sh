@@ -101,7 +101,6 @@ async function unlinkAccount(account: string) {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f5f5f5;
   gap: 5rem;
 
   h1 {
