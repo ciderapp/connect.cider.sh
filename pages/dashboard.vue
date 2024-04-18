@@ -19,6 +19,8 @@ const {data: data} = await useAsyncData(async () => {
         Authorization: `Bearer ${token}`
       }
     }).then(res => res.json());
+  } else {
+    window.location.reload();
   }
 
   return {
