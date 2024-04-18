@@ -10,8 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/kinde": "^0.1.10",
+    "@quasar/extras": "^1.16.11",
     "nuxt": "^3.11.2",
+    "quasar": "^2.15.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "nuxt-quasar-ui": "^2.0.8",
+    "sass": "^1.75.0"
   }
 }
