@@ -54,7 +54,7 @@ async function unlinkAccount(account: string) {
 
 <template>
   <div class="dashboard">
-    <h1>Welcome, {{ $auth.user.name }}</h1>
+    <h1>Welcome, {{ $auth.user.name || $auth.user.given_name }}</h1>
 
     <q-card v-if="data.token" class="linked-accounts">
       <q-card-section>
