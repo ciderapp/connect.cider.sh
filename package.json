@@ -12,7 +12,7 @@
   "dependencies": {
     "@nuxtjs/kinde": "^0.1.10",
     "@quasar/extras": "^1.16.11",
-    "nuxt": "^3.11.2",
+    "nuxt": "^3.12.4",
     "quasar": "^2.15.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
